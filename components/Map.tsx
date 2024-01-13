@@ -40,7 +40,7 @@ const Map = () => {
             center={[ 49.246292, -123.116226]} zoom={14} scrollWheelZoom={true}
         >
             <TileLayer
-                attribution='&copy; <a href="https://github.com/HediehKh/A01293381KharaqaniCanadaLine.git">By Hedieh Kharaqani</a> contributors'
+                attribution='&copy; <a href="https://github.com/HediehKh/A01293381Kharaqani_Exercise_1">By Hedieh Kharaqani</a> contributors'
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
             
@@ -89,8 +89,6 @@ const Map = () => {
                     Marine Drive Station
                 </Popup>
             </Marker>
-
-            {/** MultiPolyLine 1 */}
             <Marker position={[49.19566829212829, -123.1258705995363]} icon={icon}>
                 <Popup>
                     Bridgeport Station
@@ -112,8 +110,6 @@ const Map = () => {
                     YVR-Airport Station
                 </Popup>
             </Marker>
-
-            {/** MultiPolyLine 2*/}
             <Marker position={[49.18415081433682, -123.1364489315342]} icon={icon}>
                 <Popup>
                     Aberdeen Station
